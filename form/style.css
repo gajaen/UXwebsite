@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+@import url('https://fonts.googleapis.com/css?family=Teko:600');
+* {
+	margin: 0;
+	position: relative;
+	
+	
+	
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 20px;
+}
+h3{
+	text-align: center;
+	
+}
+a {
+	text-decoration:none;
+	color:inherit;
+
+}
+
+body{
+    left: 0;
+    top: 0;
+    padding: 0px;
+    height: 100%;
+
+
+    font-family:'Work Sans', sans-serif;
+
+	
+}
+
+.center {
+	text-align: center;
+}
+.italic {
+	font-style: italic;
+}
+.indent {
+	text-indent: 3vw;
+}
+
+.dropbtn {
+    background-color: inherit;
+    color: black;
+    padding: 16px;
+    font-size: 1.2vw;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 100px;
+    overflow: auto;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.4vw 0.3vw;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {}
+
+.show {display:block;}
+/***********************************************************************/
+
+.knappOpp {
+	
+	position: fixed;
+	z-index: 1;
+	width: 100px;
+	
+	height: 100px;
+	right: 2%;
+	
+	bottom: 0;
+		
+}
+
+/***********************************************************************/
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  
+}
+
+
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  border: 1px solid #999;
+border-radius: 0.5em;
+  
+  
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+  
+}
+
+.button {
+  text-align:center;
+  font: 14px "Trebuchet MS", sans-serif;
+}
+
+button:hover {
+	background: lightslategrey;
+}
+
+button {
+	padding: 8px 16px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	border: 0;
+	margin: 0;
+
+}
+
+
+
+
+/***********************************************************************/
+/* fixed bar*/
+
+header.topbar{
+    color: black;
+    position: fixed;
+    width: 5%;
+    height: 15%;
+	
+
+    z-index: 2;
+    top: 40%;
+    left: 10%;
+    list-style-type: none;
+
+    
+    
+}
+header.topnav ul{
+	border: 15px solid white;
+}
+
+header.topbar  li {
+	padding: 15px;
+	
+	text-decoration: none;
+	list-style-type: none;
+	}
+header.topbar li a {
+	font-size: 1.2vw;
+}   
+
+header.topbar li a:hover {
+    
+    color: white;
+    
+    
+    
+    
+}
+
+/**********************************************************************************/
+
+header.test {
+	position: relative;
+	height: 100%;
+
+	width:100%;
+	padding: 25px 0 0 0 ;
+	
+	text-align:center;
+	
+	background-color:#312c32;
+	
+	font-family:inherit;
+
+}
+
+.language {
+	text-align: right;
+	color: white;
+	margin-right: 3vw;
+	
+}
+.language a{
+	border: 2px solid white;
+	border-radius: 8px;
+	padding:3px;
+}
+.head {
+	
+}
+
+
+.logo {
+	font-size:5vw;
+	color:white;
+	line-height:1;
+	letter-spacing:0vw;
+	font-family:'Teko', sans-serif;
+	text-transform:uppercase;
+}
+
+#colorLogo {
+	color:#ffc41b; font-weight: bold; font-style: 8vw;
+}
+
+.subtitle {
+	font-family:'Open Sans', sans-serif;
+	font-size:0.95vw;
+	text-transform: uppercase;
+	letter-spacing:0.22vw;
+	color:#ffa83e;
+}
+
+nav ul {
+	background-color: #ffffff;
+	overflow:hidden;
+	color:#312c32;
+	padding:0.5vw;
+	text-align:center;
+	margin:0;
+	-webkit-transition:max-height 0.4s;
+	-ms-transition:max-height 0.4s;
+	-moz-transition:max-height 0.4s;
+	-o-transition:max-height 0.4s;
+	transition:max-height 0.4s;
+	
+	text-transform: uppercase;
+	letter-spacing:0.22vw;
+	font-size: 1.1vw;
+}
+
+nav ul li {
+	display: inline-block;
+	padding:0.85vw;
+}
+
+nav ul li:hover {
+	background-color:#312c32;
+	color:white;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+/*******************************************************************/
+.section1 {
+	width:100%;
+	line-height:1.6em;
+	font-size:1.1vw;
+	padding:5vw 25vw;
+	margin:0 auto;
+	background-color:#ffd24e;
+	
+	overflow: auto; 
+	text-align: left;
+	color:#353535;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top:15px solid white;
+
+    
+
+}
+
+#msg{
+	height: 100px;
+	width: 400px;
+} 
+h1 {
+	font-family:'Work Sans', sans-serif;
+	letter-spacing:0.1vw;
+	font-size:1.7vw;
+	text-transform:uppercase;
+	
+	margin-top:0;
+	font-weight: bolder;
+
+}
+h2 {
+	font-family:'Work Sans', sans-serif;
+	
+	font-size:1.5vw;
+	
+	
+	margin-top:0;
+	font-weight: bold;
+}
+.section2 {
+	width:100%;
+	line-height:1.6em;
+	font-size:1.1vw;
+	padding:5vw 25vw;
+	margin:0 auto;
+	background-color:#EBEBE8;
+
+	text-align: left;
+	color:#353535;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border-top:15px solid white;
+
+	
+}
+.img_1 {
+	width:30%;
+	height:30%;
+	float: left;
+	clear: left;
+	margin-right:40px;
+	margin-bottom:20px;
+	background-image: url('images/image2.jpg');
+	background-size: contain;
+}
+
+footer.footer {
+	margin: auto;
+    
+    
+    
+	
+}
+
+.footer {
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	background-color: #efefef;
+  	text-align: center;
+  
+}
+
+footer.footer p{
+    
+	
+	font-family: inherit;
+	
+}
+
+/********************************************************************************/
+
+@media screen and (max-width: 599px) {
+	header.nav, nav ul li {
+		box-sizing:border-box;
+		width:100%;
+		padding:15px;
+		text-align:left;
+		
+		font-size: 3vw;
+	}
+	
+	
+	.language {
+		font-size: 2vw;
+		margin-right: 5px;
+	}
+	.logo {font-size: 8vw;}
+	.subtitle{font-size: 4vw;}
+	
+	
+	.img_1 {width:100%;}
+	
+	.section1, .section2 {
+		padding:5vw 10vw; 
+		font-size:3.5vw;
+	}
+	footer.footer{
+		font-size:3vw;
+	}
+
+	header.topbar, nav.knappOpp {
+		display: none;
+	}
+
+	
+	footer.footer p {
+		font-size: 2vw;
+	}
+	
+	footer.footer  {
+		
+		
+		color: #919191;
+		
+		font-size: 2vw;
+		
+	
+	}
+	h1 {
+		font-size:4vw;
+		
+
+	}
+	h2 {
+		font-size:3.7vw;
+	}
+	
+
+
+	 
+}
+
+
+/*@media (max-width:1299px) and (min-width:600px) {
+	.test nav ul li {
+		font-size: 1.5vw;
+	}
+	.title {font-size: 2.5vw;}
+	
+	.section1, .section2 {font-size:1.5vw;}
+	 
+}
+@media (min-width:1300px) {
+	.test nav ul li {
+		font-size: 1.2vw;
+	}
+	
+	.title {font-size: 2.2vw;}
+
+	.section1, .section2  {font-size:1.2vw;}
+	 
+}*/
+
+/** 
+ * iPad with portrait orientation.
+ */
+/*@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  nav ul li {
+		font-size: 2vw;
+	}
+	.title {font-size: 3vw;}
+	
+	.section1, .section2 {font-size:2vw;}
+	
+}*/
+
+/*@media print {
+	header.topbar, .test ul, .language  {
+		display: none;
+	}
+}*/
+

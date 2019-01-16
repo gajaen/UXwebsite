@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1">
+	<title>TogetherAgainstBullying</title>
+	<link rel="stylesheet" type="text/css" href="style.css" id="pagestyle">
+	<script src="script.js"></script>
+
+</head>
+<body>
+	<div id="top"></div>
+	
+
+	<noscript>
+		<style type="text/css">
+			.size1, .kontrast {
+				display: none;
+			}
+		</style>
+	</noscript>
+	
+	
+	
+	<header class="test" id="test" role="test"> 
+		<div class="size1" >
+			
+	  		<div class="size2">
+	  			
+	  					<button tabindex="10" id="liten" style="cursor:pointer"  onclick="(smaller('about prob_2 contact','prob_1 about1 contact1','test'))">
+				  		<span id="liten_a">A</span>
+				  		</button>
+			  		
+			  		
+		  			
+						<button tabindex="11" id="stor" style="cursor:pointer"  onclick="(bigger('about prob_2 contact','prob_1 about1 contact1 ','test'))">
+						<span id="stor_a">A</span>
+						</button>
+						
+					
+				
+			</div>
+			
+		</div>
+		<div class="head">
+
+
+			<a href="index.html">
+					<div class="gone"><span>_</span></div>
+					<div class="logo" role="logo">
+						<p>Together<span id="colorLogo"> Against </span>Bullying
+						</p>
+					</div>
+				
+				<!-- <div class="subtitle">
+					<span>
+						Informasjonsportal om mobbing og forebyggende tiltak
+					</span>
+				</div> -->
+			</a>
+		</div>
+		<button tabindex="12" class = "kontrast"onclick="swapStyleSheet('kontrast2.css')">HighContrast</button>
+		<button class = "normal" onclick="swapStyleSheet('style.css')">Normal</button>
+
+	
+		
+		<nav class="nav">
+			<ul >
+				<li ><a href="index.html" role="button" tabindex="1" id="activ">Home</a></span></li>
+				<li ><a href="bullying.html" role="button" tabindex="2" >What is bullying </a></span></li>
+				<li ><a href="mob_test.html" role="button" tabindex="3" >Problem & solution</a></span></li>
+				<li ><a href="app.html" role="button" tabindex="4">The APP</a></span></li>
+
+			</ul>
+		</nav>
+
+
+	</header>
+
+	
+	
+	
+
+		<!-- Text sections -->
+		<div class="section1" >
+			<h1 id="prob_1">
+				Society and bullying
+			</h1>
+		<div id="prob_2" role="problem">	
+			<p>
+				The problem of bullying is a well-known <span title="Social phenomena are social and external influences (like behavioral or developmental influences) on people in a city or society."> social phenomenon </span> and has been emphasized in modern <span title="A society is a group of people who share similar values, laws, religion, politics, culture etc. in an organized community."> society </span> for quite some time. As we see from the research, bullying is effecting many people’s, from young children in schools to adults at workplaces. Unfortunately, the problem of bullying has sometimes tragic endings, if it’s not addressed properly.
+			</p>
+			<br>
+			<p>
+				There has been written a lot of literature on this subject both in Western world and worldwide. But still bullying is a part of our society lives and with introduction of new <span title="Technology (commonly refered to as “tech”) is a collection of goods and services to advance productivity."> technology </span> the problem of bullying seems to be growing and taking new forms.
+			</p>
+			<p>
+				On this webpage you will find information on how bullying still is a major problem in kindergartens, schools and work places. You will also find relevant solutions to the problems presented.
+			</p>
+		</div>
+		</div>	
+	
+	
+
+	
+	
+	<div class="section2" role="About us">
+		
+			<h1 id="about1">About Us</h1>
+			<div id="about">	
+			<p>
+				Together Against Bullying is a Norwegian organization, based in Oslo, that has a purpose of informing society on dangers of bullying. It was started in 2010 and has since then gained a lot of experience and recognition in this field.
+			</p>
+			<br>
+			<p>
+				On our website you’ll find information on bullying in kindergartens, schools and workplaces. We’re presenting the measures that can and should be taken	in regards to bullying in all those places. In addition, as a solution to the problem of bullying we present our own free application for smartphones.
+			</p>
+			<br>
+			<p>
+				Our services include answering <span title="Questions to gather information."> inquiries </span>, arranging courses, information meetings in regards to bullying and <span title="Bothering someone in a disturbing or rude way."> harassment </span>. Our services are going to be of use for younger audience, students, working people but also employees at kindergartens, schools and different workplaces where bullying or <span title="Bothering someone in a disturbing or rude way."> harassment </span> is happening.
+			</p>
+		
+	
+	
+		
+		<p>
+			You can contact Together Against Bullying by sending us an inquiry. Fill out and send us the form below with the information concerning your case and we’ll contact you within 24 hours.
+		</p>		
+		<br>
+		<br>
+		
+		</div>
+
+		<form method="post"form name="myForm" action="" onsubmit="return validateForm()" autocomplete=on >
+  <center> <h1 id = "contact"> Contact Us </h1> </center>
+<p> Fill out your Name and E-mail address, write your message in the text field and click on "Send" button to send your message.  <p> <div id="contact1">
+ <span class="example"> * required fields </span>
+ <br>
+ <br>
+ <label> Name: </label>
+ <br
+ <br>
+ 
+  <input type="text" id="name" tabindex="5" placeholder="    Your name "name="user_name"maxlength="45">
+  <br>
+  
+  </div>
+  
+  <div>
+   <br>
+   <label> E-mail:<span class="example"> * </span> </label>
+   
+         <input type="email" tabindex="6" placeholder="    Your e-mail "id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"title="Invalid email address"maxlength="35">
+   <br>
+  <br>
+   <label> Message:<span class="example"> *</span> </label>
+  <br>
+  <br>
+  <div id = "textBox">
+  <textarea tabindex="7" placeholder="   Your message"  wrap="off" cols="300" rows="50" type="meld" id="msg" name="msg"maxlength="300" height:"400px" width:"400px" ></textarea>
+  </div>
+  
+  <div class="button">
+   
+   
+   
+  <button type="submit" tabindex="8" onclick="myFunction()"onclick="Message received!">Send</button>
+  
+    </div>
+  </form>
+		</div>
+	</div>
+
+	</div>
+
+
+	
+
+	<!--- FOOTER -->
+	
+	<footer class="footer">
+		<div class="left_fot">
+		<div class="logoFooter">Together<span id="colorLogo1">Against</span>Bullying</div>
+		<p style="color:white;">
+				Together Against Bullying<br>
+				Storgt. 22<br>
+				0184 Oslo<br>
+				Norway<br>
+				<br>
+				Tel: 22 33 55 11<br>
+				E-mail: post@tab.no<br>
+				Org.nr. 091 746 552<br>
+				<br>
+		</p>
+		<div class="no_fot">
+				<p style="color: white">
+				Copyright© Coded and written by Webproject students Joachim Berg, Pavel Ovchinnikov, Sivert Borgeteien, Arqam Sajid, Gauseeban Iyathurai and Gajaen Chandrasegaram.
+				</p>
+		</div>
+
+		</div>
+					
+		<div class="main_fot">
+
+		</div>
+		<div class="right_fot">
+			<a href="https://nb-no.facebook.com"><img src="image/facebook_icon.svg" rule=button alt="Facebook" id="fot_imgF"><div class="footerLink">Facebook</a></div><br>
+			<a href="https://twitter.com"><img src="image/twitter_icon.svg" rule=button alt="Twitter" id="fot_imgT"><div class="footerLink">Twitter</a></div><br>
+			<a href="https://www.linkedin.com"><img src="image/linkedin_icon.svg" rule=button alt="LinkedIn" id="fot_imgL"><div class="footerLink">LinkedIn</a></div><br>
+			<a href="https://www.youtube.com"><img src="image/youtube_icon.svg" rule=button alt="YouTube" id="fot_imgY"><div class="footerLink">YouTube</a></div><br>
+		</div>
+		
+	</footer>
+
+	
+
+</body>
+</html>
